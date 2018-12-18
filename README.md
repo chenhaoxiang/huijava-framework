@@ -1,2 +1,3 @@
-# huijava-tools
-spring-boot的一些工具类，简化你的开发
+# huijava-framework
+项目基础骨架
+

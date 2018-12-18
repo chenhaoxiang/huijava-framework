@@ -2,15 +2,14 @@
 <project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xmlns="http://maven.apache.org/POM/4.0.0"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>huijava-tool</artifactId>
+        <groupId>com.huijava.tool</groupId>
+        <version>1.0.0</version>
+    </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.huijava.tool</groupId>
-    <artifactId>huijava-tool</artifactId>
-    <packaging>pom</packaging>
-    <version>1.0.0</version>
-    <modules>
-        <module>huijava-tool-common</module>
-    </modules>
+    <artifactId>huijava-tool-common</artifactId>
 
 
 </project>
